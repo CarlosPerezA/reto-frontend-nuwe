@@ -1,0 +1,78 @@
+.container{
+    display: flex;
+    flex-flow: row wrap; 
+    height: 813px;
+    @media screen and (min-device-width: 1100px) and (max-device-width: 1900px){
+        height: 1084px;
+    } 
+}
+
+aside{
+    flex: 10px;
+    background-color: rgba(43, 147, 72,.8);
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    @media screen and (min-device-width: 1100px) and (max-device-width: 1900px){
+        height: 1084px;
+    } 
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1025px) {
+        display: none;
+    }
+    @media only screen and (min-device-width: 320px) and (max-device-width: 767px){
+        display: none;
+    }
+}
+
+section{
+    flex: 70%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background{
+    background: url("../../static/background.jpg");
+    background-size: cover;
+    position: absolute;
+    height: 813px;
+    width: 1000px;
+    z-index: -2;
+    @media screen and (min-device-width: 1100px) and (max-device-width: 1900px){
+        height: 1084px;
+    } 
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1025px) {
+        display: none;
+    }
+    @media only screen and (min-device-width: 320px) and (max-device-width: 767px){
+        display: none;
+    }
+}
+
+
+.background__text__p{
+    width: 600px;
+    line-height: 50px;
+    font-size: 30px;
+    color: white;
+    @media only screen and (min-width : 1000px) and (max-width : 1400px) {
+        width: 500px;
+    }
+    @media only screen and (min-device-width: 600px) and (max-device-width: 1025px) {
+        display: none;
+    }
+}
+
+.menu{
+    flex: 1;
+    background-color: white;
+    width: 250px;  
+    height: 100%; 
+    margin: auto;  
+}
+

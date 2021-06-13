@@ -1,0 +1,55 @@
+.container{
+    height: 100%;
+    width: 470px;
+    @media screen and (min-device-width: 1100px) and (max-device-width: 1900px){
+        width: 500px;
+    } 
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1025px) {
+        width: 700px;
+    }
+    @media only screen and (min-device-width: 320px) and (max-device-width: 767px){
+        width: 300px;
+    }
+}
+
+.menu__option{
+    height: 180px;
+    text-align: right;
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1025px) {
+        height: 100px;
+    }
+    @media only screen and (min-device-width: 320px) and (max-device-width: 767px){
+        height: 110px;
+    }
+}
+
+.menu__container h2{
+    font-size: 27px;
+    margin-bottom: 15px;   
+    @media screen and (min-device-width: 1100px) and (max-device-width: 1900px){
+        width: 500px;
+    } 
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1025px) {
+        width: 700px;
+    }
+    @media only screen and (min-device-width: 320px) and (max-device-width: 767px){
+        width: 300px;
+        font-size: 24px;
+    }  
+}
+
+.menu__container p{
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 30px;
+    @media screen and (min-device-width: 1100px) and (max-device-width: 1900px){
+        width: 500px;
+    } 
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1025px) {
+        width: 700px;
+    }
+    @media only screen and (min-device-width: 320px) and (max-device-width: 767px){
+        width: 300px;
+        font-size: 16px;
+    } 
+}

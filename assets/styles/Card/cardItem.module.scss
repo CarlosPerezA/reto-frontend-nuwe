@@ -1,0 +1,60 @@
+.cardItem {
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  display: block;
+  width: 500px;
+  height: 130px;
+  margin-top: 10px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  -webkit-box-shadow: -1px 7px 25px -5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: -1px 7px 25px -5px rgba(0, 0, 0, 0.3);
+  box-shadow: -1px 7px 25px -5px rgba(0, 0, 0, 0.3);
+  @media screen and (min-device-width: 1100px) and (max-device-width: 1900px) {
+    width: 500px;
+  }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1025px) {
+    width: 700px;
+  }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+    width: 310px;
+    height: 90px;
+    border: 0.2px solid #cecece;
+  }
+}
+
+.cardItem:hover {
+  border: 1px solid #2b9348;
+  background-color: #d9fbe3;
+}
+
+.cardItem__details {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  vertical-align: middle;
+  margin: 40px 0 0 100px;
+  @media screen and (min-device-width: 1100px) and (max-device-width: 1900px) {
+    width: 500px;
+  }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1025px) {
+    width: 700px;
+  }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+    width: 300px;
+    margin: 30px 0 0 10px;
+  }
+}
+
+.cardItem__details h4 {
+  font-size: 18px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.cardItem__details p {
+  font-size: 14px;
+  color: gray
+}
