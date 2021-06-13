@@ -1,0 +1,71 @@
+
+@font-face {
+    font-family: "Metropolis-black";
+    src: url("/src/assets/fonts/Metropolis/metropolis-black.otf")format("opentype");
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Metropolis-bold";
+    src: url("/src/assets/fonts/Metropolis/metropolis-bold.otf");
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Metropolis-medium";
+    src: url("/src/assets/fonts/Metropolis/metropolis-medium.otf");
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Metropolis-regular";
+    src: url("/src/assets/fonts/Metropolis/metropolis-regular.otf");
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Metropolis-thin";
+    src: url("/src/assets/fonts/Metropolis/metropolis-thin.otf");
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Metropolis-black";
+}
+
+h1{
+    font-family: "Metropolis-black";
+    font-size: 55px;
+    margin: 0;
+}
+
+h2{
+    font-family: "Metropolis-bold";
+    font-size: 45px;
+    margin: 0;
+}
+
+h3{
+    font-family: "Metropolis-bold";
+    font-size: 32px;
+    margin: 0;
+}
+
+h4{
+    font-family: "Metropolis-medium";
+    font-size: 20px;
+    margin: 0;
+}
+
+p{
+    font-family: "Metropolis-thin";
+    font-size: 15px;
+    margin: 0;
+}
